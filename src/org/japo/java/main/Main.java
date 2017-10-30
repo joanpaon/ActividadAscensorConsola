@@ -39,7 +39,7 @@ public class Main {
         // Turno Persona
         for (int personaAct = 0; personaAct < NUM_PERSONAS; personaAct++) {
             // Validación de Piso
-            boolean pisoOK = true;
+            boolean pisoOK;
             do {
                 // Selección Piso
                 boolean entradaOK = true;
